@@ -82,8 +82,7 @@
         "meta_descr": "Helihool MTÜ is an Estonian non-profit association established in 2019 in Tallinn. As per its Articles of Association, Heliihool MTÜ has the objective to make people lives better by the following means: helping war refugees, making high-quality live music accessible",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/og-v2-mf-1200x630.png"
+        "html_before": ""
       },
       "components": [
         {
