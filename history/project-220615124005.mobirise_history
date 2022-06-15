@@ -1,0 +1,217 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#005eb8",
+        "secondaryColor": "#005eb8",
+        "successColor": "#fef42f",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "3A8F61_0_0",
+        "display1Size": "4",
+        "display2Font": "3A8F61_0_0",
+        "display2Size": 3,
+        "display5Font": "3A8F61_0_0",
+        "display5Size": 2,
+        "display7Font": "3A8F61_0_0",
+        "display7Size": "1.1",
+        "display4Font": "3A8F61_0_0",
+        "display4Size": 1.1,
+        "isRoundedButtons": true,
+        "isGhostButtonBorder": true,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "titlePreset": "Company",
+      "nameSelectPreset": "company",
+      "presetSourceTheme": "mobirise5",
+      "additionalSetColors": [
+        "#5146d3",
+        "#fef42f",
+        "#f0f4c7",
+        "#005eb8"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "Helihool MTÜ",
+    "versionFirst": "5.6.8",
+    "siteFonts": [
+      {
+        "css": "'Jost', sans-serif",
+        "name": "Jost",
+        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'3A8F61_0_0'",
+        "name": "3A8F61_0_0",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/3A8F61_0_0/font.ttf"
+      },
+      {
+        "css": "'3A8F61_0_0'",
+        "name": "3A8F61_0_0",
+        "url": null,
+        "file": "@PROJECT_PATH@/fonts/3A8F61_0_0/font.ttf"
+      }
+    ],
+    "imageResize": true,
+    "favicon": "@PROJECT_PATH@/assets/images/logo-transp-new-128x128.png",
+    "mbrsiteDomain": "jiqrsfqwcr",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "uniqCompNum": 94,
+    "versionPublish": "5.6.8",
+    "screenshot": "screenshot.png",
+    "gdpr": false,
+    "global_header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-W4Q8CGFPMM\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-W4Q8CGFPMM');\n</script>\n\n<!-- Meta Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '723620309092103');\nfbq('track', 'PageView');\n</script>\n<noscript><img height=\"1\" width=\"1\" style=\"display:none\"\nsrc=\"https://www.facebook.com/tr?id=723620309092103&ev=PageView&noscript=1\"\n/></noscript>\n<!-- End Meta Pixel Code -->",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Helihool MTÜ",
+        "meta_descr": "Helihool MTÜ is an Estonian non-profit association established in 2019 in Tallinn. As per its Articles of Association, Heliihool MTÜ has the objective to make people lives better by the following means: helping war refugees, making high-quality live music accessible",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "info1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Features\" class=\"info1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-8\">\n                <h3 class=\"mbr-section-title mb-4 mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Helihool</b></h3>\n                <p class=\"mbr-text mb-5 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Helihool MTÜ is an Estonian non-profit association established in 2019 in Tallinn. As per its Articles of Association, Heliihool MTÜ has the objective to make people lives better by the following means:</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-white\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Visit Forums</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t8cqkYW9P9",
+          "_anchor": "info1-2j",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card-wrapper": {
+              "border-radius": "4px",
+              "background": "@cardColor",
+              "@media (min-width: 992px)": {
+                "padding": "2rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem",
+                "margin-bottom": "2rem"
+              }
+            },
+            ".row": {
+              "align-items": "center",
+              "justify-content": "center",
+              ".row": {
+                "@media (max-width: 767px)": {
+                  "flex-direction": "column-reverse",
+                  ".img-wrapper": {
+                    "margin-bottom": "2rem"
+                  }
+                }
+              }
+            },
+            ".img-wrapper img": {
+              "width": "100%",
+              "object-fit": "cover"
+            },
+            ".card-subtitle": {
+              "color": "#0095ff"
+            },
+            ".mbr-text": {
+              "color": "#555555"
+            }
+          },
+          "_name": "features5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features4\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showsubTitle\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Card Color\" name=\"cardColor\" value=\"#fafafa\" condition=\"showLink\" selected>\n\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n        </select>\n\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"row\">\n            <div class=\"col-12 col-lg-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"row\">\n                        <div class=\"col-12 col-md-7\">\n                            <div class=\"text-wrapper\">\n                                <h6 class=\"card-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\" data-app-selector=\".card-subtitle\">\n                                    Mariupoli Sõbrad</h6>\n                                <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>a. Helping war&nbsp;</b><b>refugees:</b></h5>\n                                <p class=\"mbr-text mbr-fonts-style mb-5\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">• organizing transfers,<br>• tickets &amp; food procurement,<br>• accommodation in Estonia,<br>• consultations,<br>• any other ways that may be needed to help the refugees.<br></p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mariupolisobrad.helihool.ee\" class=\"btn btn-warning\" data-app-placeholder=\"Type Text\">Learn more about <br>\"Mariupoli Sõbrad\"</a></div>\n                            </div>\n                        </div>\n                        <div class=\"col-12 col-md-5\">\n                            <div class=\"img-wrapper\">\n                                <a href=\"https://mariupolisobrad.helihool.ee\"><img src=\"@PROJECT_PATH@/assets/images/ms-logo-816x544.png\" alt=\"Mariupoli Sõbrad\"></a>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"row\">\n                        <div class=\"col-12 col-md-7\">\n                            <div class=\"text-wrapper\">\n                                <h6 class=\"card-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-4\" mbr-if=\"showsubTitle\" data-app-selector=\".card-subtitle\">\n                                    Helihool Project</h6>\n                                <h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"><b>b. Making high-quality live music accessible</b></h5>\n                                <p class=\"mbr-text mbr-fonts-style mb-5\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">• for patients in hospitals and care<br>homes,<br>• for war refugees,<br>• for kids,<br>• for the general public, who would get positive effect from the live music</p>\n                                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://music.helihool.ee\" class=\"btn btn-warning\" data-app-placeholder=\"Type Text\">Learn more about <br>\"Heihool Music\"</a></div>\n                            </div>\n                        </div>\n                        <div class=\"col-12 col-md-5\">\n                            <div class=\"img-wrapper\">\n                                <a href=\"https://helihool.helihool.ee\"><img src=\"@PROJECT_PATH@/assets/images/hh-logo-816x544.png\" alt=\"Helihool Project\"></a>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t8cq5oqxhS",
+          "_anchor": "features5-2i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<div>\n    <iframe src=\"https://donationbox.ee/embed?iban=EE534204278619625400&amp;campaign_title=Help+for+Ukrainian+refugees+in+Estonia+%2F+abi+Ukraina+pagulastele+Eestis&amp;payee=Mittetulundus%C3%BChing+Helihool&amp;detail=Help+for+Ukrainian+refugees+%2F+abi+Ukraina+pagulastele&amp;db=mariupoli-sobrad&amp;tax=1&amp;sebuid=7f741bb6-ecb3-4c39-a661-513fe1229fe1&amp;sebuid_st=2fd9407d-b827-4b5b-aae7-9889d5facc74\" width=\"100%\" height=\"950\" style=\"border:none;overflow:hidden\" scrolling=\"no\"></iframe>\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 0px 0;\n  color: #777;\n  text-align: center;\n  overflow: hidden;\n  overflow-x:hidden;\n  overflow-Y:hidden;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_sourceTheme": "mobirise5",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_params": {},
+          "_anchor": "donate"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden"
+          },
+          "_name": "footer7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    Helihool MTÜ, registry code&nbsp;80574100,<br>registered on&nbsp;03.12.2019 at&nbsp;Harju maakond, Tallinn, Pirita linnaosa, Võsa tee 4-2, 11912</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t8csDycRIP",
+          "_anchor": "footer7-2k",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
