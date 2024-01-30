@@ -272,12 +272,13 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Vocal Education Concerts",
+        "title": "Helihool",
         "meta_descr": "Helihool Music offers music concerts for kids, in gardens, and in hospitals. Let's Sing provides online vocal courses, individual lessons, and choir sessions.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "socialSharingUrl": ""
+        "socialSharingUrl": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/hh-logo-816x544-1-206x137.png"
       },
       "components": [
         {
